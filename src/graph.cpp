@@ -18,8 +18,10 @@ void Graph::addEdge(int u, int v)
 }
  
 // Prints all paths from 's' to 'd'
-void Graph::printAllPaths(int s, int d, vector< vector< int > > ans)
+void Graph::printAllPaths(int s, int d, vector< vector< int > >& ans)
 {
+    ans.clear();	
+	
     // Mark all the vertices as not visited
     bool *visited = new bool[V];
  
@@ -40,7 +42,7 @@ void Graph::printAllPaths(int s, int d, vector< vector< int > > ans)
 // path[] stores actual vertices and path_index is current
 // index in path[]
 void Graph::printAllPathsUtil(int u, int d, bool visited[],
-                              int path[], int &path_index, vector< vector< int > > ans)
+                              int path[], int &path_index, vector< vector< int > >& ans)
 {
     // Mark the current node and store it in path[]
     visited[u] = true;

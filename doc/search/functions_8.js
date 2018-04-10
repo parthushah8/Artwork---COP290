@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['reconstruct',['reconstruct',['../classthree_d___fig.html#a31614c44722322db95c79af424a6b01c',1,'threeD_Fig']]],
+  ['regenerate',['regenerate',['../classwireframe.html#a94b6abda4f6fcb9963e27b3cc57ae032',1,'wireframe']]],
+  ['regenerate2',['regenerate2',['../class_point3.html#a3b69a9e9af6e4ca1b626decf9bfcebe8',1,'Point3']]],
+  ['regenerate2_5fxy_5fxz',['regenerate2_XY_XZ',['../class_point3.html#a85d98139aaf5a7a955e4fa7352c3e5ea',1,'Point3']]],
+  ['regenerate2_5fxy_5fyz',['regenerate2_XY_YZ',['../class_point3.html#a378afead0437a4f89047bfe99bebed0a',1,'Point3']]],
+  ['regenerate2_5fyz_5fxz',['regenerate2_YZ_XZ',['../class_point3.html#ab283a8969e4192b9e2d535f1a30ca081',1,'Point3']]],
+  ['regenerate3',['regenerate3',['../class_point3.html#a615389d4034320dffccf51251fc5dbcb',1,'Point3']]],
+  ['resetalledges',['resetAllEdges',['../classthree_d___fig.html#ae9257603904801fd19a63e80edcf1bf9',1,'threeD_Fig::resetAllEdges()'],['../classtwo_d___fig.html#a3ed73933a28ae79bd45f2581d4ce87e2',1,'twoD_Fig::resetAllEdges()']]],
+  ['resetallfaces',['resetAllFaces',['../classthree_d___fig.html#a5eb602a5587e128af9992459869b3f9c',1,'threeD_Fig']]],
+  ['resetallpoints',['resetAllPoints',['../classthree_d___fig.html#ab67fe8f82ced10d042558b3447956a6c',1,'threeD_Fig::resetAllPoints()'],['../classtwo_d___fig.html#ad549bf91a444c149c972e719f73631d4',1,'twoD_Fig::resetAllPoints()']]],
+  ['resetlastedge',['resetLastEdge',['../classthree_d___fig.html#a3bac73f50639a0235886eb7ebc92c938',1,'threeD_Fig::resetLastEdge()'],['../classtwo_d___fig.html#a0f33662dd40d967ae7d01954acbf15d3',1,'twoD_Fig::resetLastEdge()']]],
+  ['resetlastface',['resetLastFace',['../classthree_d___fig.html#a1c29b7f13c42b93919e884dc37e3ab7d',1,'threeD_Fig']]],
+  ['resetlastpoint',['resetLastPoint',['../classthree_d___fig.html#a0ad629d2ffb9d930f1d1a094114e08e4',1,'threeD_Fig::resetLastPoint()'],['../classtwo_d___fig.html#a8156764cf1c5e554bb9a16a523bd19e9',1,'twoD_Fig::resetLastPoint()']]],
+  ['rotate',['rotate',['../class_edge.html#ad907b7cb4589c2ceba12a707487cc178',1,'Edge::rotate()'],['../class_point3.html#ab5b54a5a6ff993f87868a0692e8da90e',1,'Point3::rotate()']]],
+  ['rotatex',['rotateX',['../class_point3.html#a44031937e424fcc96e68906ba3d7f93a',1,'Point3::rotateX()'],['../classthree_d___fig.html#ae3a08865dcc7866c74fc7d3d3eed10d5',1,'threeD_Fig::rotateX()']]],
+  ['rotatey',['rotateY',['../class_point3.html#a44ecbec38174e365d06d11108cc5d3e6',1,'Point3::rotateY()'],['../classthree_d___fig.html#ae1005c95abdabef27e7035ab6aa4a7f6',1,'threeD_Fig::rotateY()']]],
+  ['rotatez',['rotateZ',['../class_point3.html#a28fcf7c845463d7c031ab18ff3b7b6c5',1,'Point3::rotateZ()'],['../classthree_d___fig.html#a4c0f410b15d283f18be45690634da619',1,'threeD_Fig::rotateZ()']]]
+];

@@ -294,38 +294,100 @@ using namespace std;
 		m_numOfPoints = 0;
 		m_numOfEdges = 0;
 		m_numOfFaces = 0;
+
+		cout<<"\n-------------------------------------3D Figure Reconstruct-------------------------------------------\n";
 		
 		int numOfPoints = wireframe.m_numOfPoints;
 		int numOfEdges = wireframe.m_numOfEdges;
 		
+		cout<<"Number of Points : "<<numOfPoints<<endl;
+		cout<<"Number of Edges : "<<numOfEdges<<endl;
+		
 		for(int i=0;i<numOfPoints;i++){
-			Point3 point = m_allPoints[i];
+			cout<<"Points"<<i<<" ";
+			Point3 point = wireframe.m_allPoints[i];
 			addPoint(point);
 		}
 		
+		cout<<endl;
+		
+		cout<<"Graph Trying\n";
+		
 		Graph connection(numOfPoints);
 		
+		cout<<"\n--------------------------------------GRAPH FORMED---------------------------------------------------\n";
+		
 		for(int i=0;i<numOfEdges;i++){
-			Edge edge = m_allEdges[i];
+			Edge edge = wireframe.m_allEdges[i];
 			int i1 = edge.m_point1.m_index;
 			int i2 = edge.m_point2.m_index;
+			cout<<"Edge:  "<<i1<<"   "<<i2<<endl;
 			addEdge(i1,i2);
 			connection.addEdge(i1,i2);
 		}
 		
 		for(int i=0;i<numOfEdges;i++){
-			Edge edge = m_allEdges[i];
+			Edge edge = wireframe.m_allEdges[i];
 			int i1 = edge.m_point1.m_index;
 			int i2 = edge.m_point2.m_index;
 			
-			vector< vector< int > > paths;
+			cout<<"Checking for Edge:  "<<i1<<"   "<<i2<<endl;
 			
-			connection.printAllPaths(i1,i2,paths);
+			vector< vector< int > > paths1;
 			
-			int numOfPaths = paths.size();
+			connection.printAllPaths(i1,i2,paths1);
 			
-			for(int i=0;i<numOfPaths;i++){
-				vector<int> path = paths[i];
+			int numOfPaths1 = paths1.size();
+			
+			cout<<"Num of Paths1: "<<numOfPaths1<<endl;
+			
+			for(int i=0;i<numOfPaths1;i++){
+				vector<int> path = paths1[i];
+				cout<<"Path1 Found : ";
+				for(int i=0;i<path.size();i++){
+					cout<<path[i]<<" ";
+				}
+				cout<<endl;
+				int size = path.size();
+				if(size>2){
+					Face face(m_numOfFaces);
+					int fl = 0;
+					int in = path[0];
+					Point3 first_point = m_allPoints[in];
+					face.addFirstPoint(first_point);
+					for(int j=1;j<size;j++){
+						int in1 = path[j-1];
+						int in2 = path[j];
+						Point3 point1 = m_allPoints[in1];
+						Point3 point2 = m_allPoints[in2];
+						if(!(face.addPoints(point1,point2))){
+							cout<<"\nSorry Not all Points on Plane\n";
+							fl = 1;
+							break;
+						}
+					}
+					if(fl==0){
+						m_allFaces.push_back(face);
+						m_numOfFaces += 1;
+					}
+				}
+			}
+			
+			vector< vector< int > > paths2;
+			
+			connection.printAllPaths(i2,i1,paths2);
+			
+			int numOfPaths2 = paths2.size();
+			
+			cout<<"Num of Paths1: "<<numOfPaths2<<endl;
+			
+			for(int i=0;i<numOfPaths2;i++){
+				vector<int> path = paths2[i];
+				cout<<"Path1 Found : ";
+				for(int i=0;i<path.size();i++){
+					cout<<path[i]<<" ";
+				}
+				cout<<endl;
 				int size = path.size();
 				if(size>2){
 					Face face(m_numOfFaces);
@@ -351,5 +413,9 @@ using namespace std;
 				}
 			}
 		}
+		
+		
+		
+		cout<<"\n-------------------------------------3D Figure Reconstruct ENDS-------------------------------------------\n";
 	}
 

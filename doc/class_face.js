@@ -1,0 +1,26 @@
+var class_face =
+[
+    [ "Face", "class_face.html#a4561079767e314d689293fd0caaae84e", null ],
+    [ "addEdge", "class_face.html#a4e806c7960bdfc7a0c5366af9fddb636", null ],
+    [ "addFirstPoint", "class_face.html#a0a611c2219bf7f1e12dfd392b7c98c72", null ],
+    [ "addPoints", "class_face.html#aeb3675e00a9fd51505ffeef68178f567", null ],
+    [ "getPlane", "class_face.html#af8fc3743b51275ddda17781ae6ade979", null ],
+    [ "isComplete", "class_face.html#afbe4833fabcf3da48b2d07fa3657acc9", null ],
+    [ "isHidden", "class_face.html#a33f5827b28dcbb5a04292d807d09052a", null ],
+    [ "isHiddenEdge", "class_face.html#a5be3dd0fe80cd9fb9b88794337f15e1a", null ],
+    [ "isOnFace", "class_face.html#a9beff7adfa23ac3e37eef145f685d9b7", null ],
+    [ "print", "class_face.html#aba2e18d62d62b3d3545fb16f165dbd30", null ],
+    [ "project", "class_face.html#a5f65c240cfb922f8feaa51a6840b5ad6", null ],
+    [ "a", "class_face.html#a10b9f5eb15e344dfab1418b7c9db966f", null ],
+    [ "b", "class_face.html#a0b4d91376fad8e0a0ed467966a9ee8d5", null ],
+    [ "c", "class_face.html#a0a04e5598db777cde9d7e405b84ec484", null ],
+    [ "d", "class_face.html#a374a6b69799e11d29324db960f48dfea", null ],
+    [ "firstPoint", "class_face.html#ac35db17d88595fa553a27358c9dac49b", null ],
+    [ "lastPoint", "class_face.html#a561f70f8fad901a32b0a3d5fb8da5200", null ],
+    [ "m_allEdges", "class_face.html#a921c287d9eb2ee1b439985a902fdb3e6", null ],
+    [ "m_allPoints", "class_face.html#a116a0eba0d3d2d3673305ab2a3655bd7", null ],
+    [ "m_index", "class_face.html#a4ead4a06f9ea06fe17797a519dfb66fd", null ],
+    [ "m_isComplete", "class_face.html#a39e4d237734357885d2dfcc1f2b3f3cd", null ],
+    [ "m_numOfsides", "class_face.html#ac0c609ef29fb123b9296915e80fcabb9", null ],
+    [ "m_pointIndex", "class_face.html#a3a0ab17babbac85c6b8eb8b6507a9146", null ]
+];

@@ -1,0 +1,27 @@
+var classthree_d___fig =
+[
+    [ "threeD_Fig", "classthree_d___fig.html#a27a9a972a8b969384f7ab2e47b3e262c", null ],
+    [ "addEdge", "classthree_d___fig.html#ad7b11a4e168c2b9f4dc571d2ef46830f", null ],
+    [ "addFace", "classthree_d___fig.html#ae2e23d421164e8da9acab91a5e076810", null ],
+    [ "addPoint", "classthree_d___fig.html#a5690953b95fbfea5e262fd56834c456f", null ],
+    [ "convertToWireframe", "classthree_d___fig.html#a25b09b49f10a1829a7a1da41ce070e95", null ],
+    [ "reconstruct", "classthree_d___fig.html#a31614c44722322db95c79af424a6b01c", null ],
+    [ "resetAllEdges", "classthree_d___fig.html#ae9257603904801fd19a63e80edcf1bf9", null ],
+    [ "resetAllFaces", "classthree_d___fig.html#a5eb602a5587e128af9992459869b3f9c", null ],
+    [ "resetAllPoints", "classthree_d___fig.html#ab67fe8f82ced10d042558b3447956a6c", null ],
+    [ "resetLastEdge", "classthree_d___fig.html#a3bac73f50639a0235886eb7ebc92c938", null ],
+    [ "resetLastFace", "classthree_d___fig.html#a1c29b7f13c42b93919e884dc37e3ab7d", null ],
+    [ "resetLastPoint", "classthree_d___fig.html#a0ad629d2ffb9d930f1d1a094114e08e4", null ],
+    [ "rotateX", "classthree_d___fig.html#ae3a08865dcc7866c74fc7d3d3eed10d5", null ],
+    [ "rotateY", "classthree_d___fig.html#ae1005c95abdabef27e7035ab6aa4a7f6", null ],
+    [ "rotateZ", "classthree_d___fig.html#a4c0f410b15d283f18be45690634da619", null ],
+    [ "m_allEdges", "classthree_d___fig.html#a26c9cc117f1e45679df42af4e7e11ec7", null ],
+    [ "m_allFaces", "classthree_d___fig.html#aa2c194099d404515ef22e375760e93a5", null ],
+    [ "m_allPoints", "classthree_d___fig.html#a3aa9d67e9c3b66dc5ac1f12962eebfda", null ],
+    [ "m_hiddenXY", "classthree_d___fig.html#a75b9de746d16b507fbe766d1d48e7ebb", null ],
+    [ "m_hiddenXZ", "classthree_d___fig.html#ab2cd30eabd2e4922582e7fcb22126641", null ],
+    [ "m_hiddenYZ", "classthree_d___fig.html#aa6e28b5b4bda2380b881bee6a914585b", null ],
+    [ "m_numOfEdges", "classthree_d___fig.html#a040ca9956138d438ab8739233266250a", null ],
+    [ "m_numOfFaces", "classthree_d___fig.html#aaf581502733d479195b0bdb385c89c5e", null ],
+    [ "m_numOfPoints", "classthree_d___fig.html#ae5adf78846b95fb74224650fb9c1dbf5", null ]
+];

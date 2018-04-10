@@ -347,8 +347,9 @@ void ThirdWindow::add_face_clicked()
 void ThirdWindow::create_clicked()
 {
 	newWireframew3.regenerate(twoDFigXYw3, twoDFigYZw3, twoDFigXZw3);
-	windowWireframew3();
-
+	threeDfigw3.reconstruct(newWireframew3);
+	// windowWireframew3();
+	window3Dw3();
 }
 void ThirdWindow::reset_point_clicked()
 {

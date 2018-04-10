@@ -10,12 +10,12 @@ class Graph
     list<int> *adj; // Pointer to an array containing adjacency lists
  
     // A recursive function used by printAllPaths()
-    void printAllPathsUtil(int , int , bool [], int [], int &, vector< vector< int> >);
+    void printAllPathsUtil(int , int , bool [], int [], int &, vector< vector< int> >& ans);
  
 public:
     Graph(int V);   // Constructor
     void addEdge(int u, int v);
-    void printAllPaths(int s, int d, vector< vector< int > > ans);
+    void printAllPaths(int s, int d, vector< vector< int > >& ans);
     //void printAllPathsUtil(int u, int d, bool visited[],int path[], int &path_index, vector< vector< int > > ans);
 };
  
