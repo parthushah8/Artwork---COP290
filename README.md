@@ -1,3 +1,3 @@
 # COP290
 
-A software which given 3D Model gives its corresponding projection and vice versa. 
+Software tool for reconstructing a 3D object from any of it's orthographic projections and vice versa through object and face detection algorithm along with it's Mathematical Model and Functional Specification.
