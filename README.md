@@ -24,7 +24,7 @@ Designed and implemented a software package for Engineering drawing. The package
 #### Step IV: Implementation and software documentation
 - Please study the following tools and commands: C pre-processor, steps in gcc compilation, linking (static and dynamic linking), Makefile, nm, objdump, strip, ldconfig, ldd, ar and ranlib. And, of course, Git and SVN. Please refer to
 
-    1. The ``hello world'' examples in http://web.iitd.ernet.in/~suban/COP290/stuff.
+    1. The ``hello world`` examples in http://web.iitd.ernet.in/~suban/COP290/stuff.
     2. https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html.
     3. http://www.cse.iitd.ac.in/~avinash/ta.html.
     4. http://www.cse.iitd.ac.in/~subhajit/csp301.shtml. 
